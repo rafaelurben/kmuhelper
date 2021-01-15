@@ -1,21 +1,26 @@
+---
+last_modified_at: 2021-01-15T22:30:00+0100
+---
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>KMUHelper Infoseite</title>
-    <meta name="description" content="Die neue Buchhaltungs-Webapp für Schweizer KMU! Lernen Sie mehr darüber!">
-    <meta property="og:type" content="website">
+    <title>KMUHelper</title>
+    <meta name="description" content="Eine Buchhaltungssoftware für alle, welche sich keine professionelle Buchhaltungssoftware leisten können oder von überall auf ihr Geschäft zugreifen wollen. Einfach und simpel.">
     <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json?h=04d1975d2552a99babd0abf6b9c5553c">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="assets/css/features.css?h=9511cb4019afcaed93985cda2aec5cb5">
     <link rel="stylesheet" href="assets/css/footer.css?h=cabc25193678a4e8700df5b6f6e02b7c">
-    <link rel="stylesheet" href="assets/css/header.css?h=18e4c3e0c7f0b078114b29e41c332335">
-    <link rel="stylesheet" href="assets/css/styles.css?h=d41d8cd98f00b204e9800998ecf8427e">
+    <link rel="stylesheet" href="assets/css/header.css?h=226b9bb184548fff9778ae86ae2864e7">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css?h=91a04f2b18410bc09760f3473788176a">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css?h=22f5c37d9256feae966552e68b9ff2f3">
+    <link rel="stylesheet" href="assets/css/styles.css?h=c2d89bcbb8bb39dbf425a1d457b4e947">
 </head>
 
 <body style="scroll-behavior: smooth;">
@@ -27,9 +32,9 @@
                         <ul class="nav navbar-nav">
                             <li class="nav-item"></li>
                             <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Navigation</a>
-                                <div class="dropdown-menu"><a class="dropdown-item" href="#">Informationen</a><a class="dropdown-item" href="#">Geschichte</a>
+                                <div class="dropdown-menu"><a class="dropdown-item" href="/kmuhelper/informationen">Informationen</a><a class="dropdown-item" href="/kmuhelper/geschichte">Geschichte</a>
                                     <div class="dropdown-divider"></div>
-                                    <h6 class="dropdown-header">Autor &amp; Spenden</h6><a class="dropdown-item" href="#">Unterstützen</a><a class="dropdown-item" href="#">Kontakt</a><a class="dropdown-item" href="https://rafaelurben.ch">Webseite*</a>
+                                    <h6 class="dropdown-header">Autor &amp; Spenden</h6><a class="dropdown-item" href="/kmuhelper/unterstützen">Unterstützen</a><a class="dropdown-item" href="/kmuhelper/kontakt">Kontakt</a><a class="dropdown-item" href="https://rafaelurben.ch">Webseite*</a>
                                 </div>
                             </li>
                         </ul><a class="btn btn-light ml-auto action-button" role="button" href="https://github.com/rafaelurben/kmuhelper" target="_blank">Quellcode</a>
@@ -43,7 +48,7 @@
                         <p>Eine Buchhaltungssoftware für alle, welche sich keine professionelle Buchhaltungssoftware leisten können oder von überall auf ihr Geschäft zugreifen wollen. Einfach und simpel.</p><a class="btn btn-light btn-lg action-button" role="button" href="/django-kmuhelper">django-kmuhelper</a>
                     </div>
                     <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
-                        <div class="phone-mockup"><img class="device" src="assets/img/phone.svg?h=d4dcf68396a0a4a140329ed710f23c6e">
+                        <div class="phone-mockup"><img class="device" src="assets/img/phone.svg?h=1a64701bca6469720e482d58dd949a5f">
                             <div class="screen"></div>
                         </div>
                     </div>
@@ -97,10 +102,19 @@
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fas fa-question icon"></i>
                         <h3 class="name">Fragen?</h3>
-                        <p class="description">Hast du noch Fragen?</p><a class="learn-more" href="mailto:kmuhelper@rafaelurben.ch">Kontaktiere mich »</a>
+                        <p class="description">Hast du noch Fragen?</p><a class="learn-more" href="/kmuhelper/kontakt">Kontaktiere mich »</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="highlight-blue">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Zu wenig Infos?</h2>
+                <p class="text-center">Das ist natürlich noch nicht alles! Weiter Informationen über den KMUHelper findest du auf folgender Seite.</p>
+            </div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="/kmuhelper/informationen">Weitere informationen</a></div>
         </div>
     </div>
     <div class="footer-dark">
