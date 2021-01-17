@@ -3,5 +3,4 @@ description: Dokumentationen zu meinen Projekten
 url: https://www.rafaelurben.ch
 plugins:
   - jekyll-last-modified-at
-  - jekyll-sitemap
 lang: de_CH
