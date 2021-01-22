@@ -5,4 +5,3 @@ baseurl: /kmuhelper
 plugins:
   - jekyll-last-modified-at
 lang: de_CH
-permalink: pretty
