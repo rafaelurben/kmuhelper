@@ -2,7 +2,7 @@
 layout: article
 title: Informationen
 subtitle: Infos rund um den KMUHelper.
-permalink: informationen
+permalink: /informationen
 ---
 
 ### Der KMUHelper
