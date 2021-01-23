@@ -2,6 +2,5 @@ title: Rafael Urben
 description: Dokumentationen zu meinen Projekten
 url: https://www.rafaelurben.ch/kmuhelper
 baseurl: /kmuhelper
-plugins:
-  - jekyll-last-modified-at
 lang: de_CH
+last_modified_at: 2021-01-23T15:50:00+0100

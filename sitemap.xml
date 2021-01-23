@@ -13,8 +13,8 @@
     {% for doc in docs %}
       <url>
         <loc>{{ doc.url | replace:'/index.html','/' | replace:'.html','' | absolute_url | xml_escape }}</loc>
-        {% if doc.last_modified_at or doc.date %}
-          <lastmod>{{ doc.last_modified_at | default: doc.date | date_to_xmlschema }}</lastmod>
+        {% if doc.last_modified_at or doc.date or site.last_modified_at %}
+          <lastmod>{{ doc.last_modified_at | default: doc.date | default: site.last_modified_at | date_to_xmlschema }}</lastmod>
         {% endif %}
         {% if doc.priority %}
           <priority>{{ doc.priority }}</priority>
@@ -27,8 +27,8 @@
   {% for page in pages %}
     <url>
       <loc>{{ page.url | replace:'/index.html','/' | replace:'.html','' | absolute_url | xml_escape }}</loc>
-      {% if page.last_modified_at %}
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+      {% if page.last_modified_at or site.last_modified_at %}
+        <lastmod>{{ page.last_modified_at | default: site.last_modified_at | date_to_xmlschema }}</lastmod>
       {% endif %}
       {% if page.priority %}
         <priority>{{ page.priority }}</priority>
@@ -40,7 +40,7 @@
   {% for file in static_files %}
     <url>
       <loc>{{ file.path | replace:'/index.html','/' | replace:'.html','' | absolute_url | xml_escape }}</loc>
-      <lastmod>{{ file.modified_time | date_to_xmlschema }}</lastmod>
+      <lastmod>{{ file.modified_time | default: site.last_modified_at | date_to_xmlschema }}</lastmod>
     </url>
   {% endfor %}
 </urlset>

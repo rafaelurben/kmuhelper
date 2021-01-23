@@ -3,3 +3,8 @@ body {
   background-color: #282D32;
 }
 
+.content {
+  background-color: white;
+  width: 100%;
+  padding: 20px 0;
+}
