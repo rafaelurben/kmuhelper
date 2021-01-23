@@ -2,6 +2,6 @@
 ---
 
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
 Disallow: /*.html$
 Disallow: */index$
