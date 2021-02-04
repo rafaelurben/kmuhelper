@@ -9,7 +9,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% assign collections = site.collections | where_exp:'collection','collection.output != false' %}
   {% for collection in collections %}
-    {% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' %}
+    {% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.noindex != true' %}
     {% for doc in docs %}
       <url>
         <loc>{{ doc.url | replace:'/index.html','/' | replace:'.html','' | absolute_url | xml_escape }}</loc>
