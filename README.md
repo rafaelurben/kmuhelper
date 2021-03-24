@@ -1,4 +1,4 @@
-# KMUHelper
+# KMUHelper Infopage
 
 This is the source code for the [KMUHelper Homepage](https://rafaelurben.github.io/kmuhelper). Feel free to create a pull request.
 
