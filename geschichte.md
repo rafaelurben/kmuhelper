@@ -1,7 +1,7 @@
 ---
 layout: content
 title: Geschichte
-subtitle: Lerne mehr über die Geschichte der Entstehung des KMUHelpers.
+subtitle: Lernen Sie mehr über die Geschichte der Entstehung des KMUHelpers.
 permalink: /geschichte
 priority: 0.5
 ---
