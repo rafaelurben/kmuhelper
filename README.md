@@ -8,3 +8,7 @@ All related pages:
 - [django-kmuhelper (source code)](https://github.com/rafaelurben/django-kmuhelper)
 - [KMUHelper Infopage](https://rafaelurben.github.io/kmuhelper)
 - KMUHelper Infopage (source code)
+
+***
+
+Built with [Bootstrap Stuido](https://bootstrapstudio.io/) and [GitHub Pages](https://pages.github.com).
