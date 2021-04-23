@@ -1,7 +1,7 @@
 ---
 layout: content
 title: Geschichte
-subtitle: Lernen Sie mehr über die Geschichte der Entstehung des KMUHelpers.
+subtitle: Lernen Sie mehr über die Geschichte der Entstehung des KMUHelpers
 permalink: /geschichte
 priority: 0.5
 ---
@@ -36,8 +36,9 @@ Mittlerweile ist der KMUHelper eine brauchbare, auf django-admin basierende Web-
 
 ### Heute
 
-Mit Django wurde der KMUHelper für mich ein Projekt, in welchem ich Potential sah, da Buchhaltungssoftware für viele KMU viel zu teuer ist, und dies eine meiner Meinung nach gute Alternative zu konstenpflichtiger Buchhaltungssoftware ist. Klar, professionell ist er absolut nicht, aber wenigstens funktioniert er. (Wenn ich nicht wieder mal mehr Bugs als Features erstelle... xD)
+Mit Django wurde der KMUHelper für mich ein Projekt, in welchem ich Potential sah, da Buchhaltungssoftware für viele KMU viel zu teuer ist, und dies eine meiner Meinung nach gute Alternative zu konstenpflichtiger Buchhaltungssoftware ist. Klar, professionell ist er nicht wirklich, aber funktioniert tut er.
+<!-- (Wenn ich nicht wieder mal mehr Bugs als Features erstelle... xD) -->
 
 Dies ist natürlich nicht die ganze Geschichte, aber immerhin ein kleiner Überblick.
 
-Bei Fragen kann man mich gerne [kontaktieren](kontakt).
+Bei Fragen können Sie mich gerne [kontaktieren](kontakt).

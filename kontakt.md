@@ -3,10 +3,10 @@ layout: content
 title: Kontakt
 subtitle: Kontaktieren Sie den Entwickler des KMUHelpers
 permalink: /kontakt
-priority: 0.3
+priority: 0.2
 ---
 
-Noch Fragen? Zu wenig mehr Informationen? Brauchen Sie Hilfe?
+Noch Fragen? Zu wenig Informationen? Brauchen Sie Hilfe?
 
 Kein Problem! Hier sind Sie genau auf der richtigen Seite gelandet.
 

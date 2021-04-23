@@ -1,7 +1,7 @@
 ---
 layout: content
 title: Unterstützen
-subtitle: Unterstützen Sie die Entwicklung des KMUHelpers.
+subtitle: Unterstützen Sie die Entwicklung des KMUHelpers
 permalink: /unterstützen
 priority: 0.3
 ---
