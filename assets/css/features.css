@@ -38,13 +38,14 @@
 
 .features-boxed .item {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .features-boxed .item .box {
+  height: 100%;
   text-align: center;
   padding: 30px;
   background-color: #fff;
-  margin-bottom: 30px;
 }
 
 .features-boxed .item .icon {
