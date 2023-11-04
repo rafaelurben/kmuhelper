@@ -1,4 +1,12 @@
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-dark {
+  margin-top: auto;
   padding: 50px 0;
   color: #f0f9ff;
   background-color: #282d32;

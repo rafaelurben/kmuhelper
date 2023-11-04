@@ -1,9 +1,9 @@
 <div>
-    <div class="header-blue" style="padding-bottom: 0px;">
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+    <div class="header-blue" style="padding-bottom: 0;">
+        <nav class="navbar navbar-expand-md navigation-clean-search px-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="{{ '/' | relative_url }}">KMUHelper</a>
-                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="navbar-toggler-icon" style="background-image: url(&quot;data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e&quot;);"></span>
                 </button>
@@ -11,7 +11,7 @@
                     <ul class="nav navbar-nav">
                         <li class="nav-item"></li>
                         <li class="nav-item dropdown">
-                            <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Navigation</a>
+                            <a class="dropdown-toggle nav-link text-light" data-bs-toggle="dropdown" aria-expanded="false" href="#">Navigation</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="{{ '/informationen' | relative_url }}">Informationen</a>
                                 <a class="dropdown-item" href="{{ '/geschichte' | relative_url }}">Geschichte</a>
@@ -23,7 +23,7 @@
                             </div>
                         </li>
                     </ul>
-                    <a class="btn btn-light ml-auto action-button" role="button" href="https://github.com/rafaelurben/kmuhelper" target="_blank">Quellcode</a>
+                    <a class="btn btn-light ms-auto action-button" role="button" href="https://github.com/rafaelurben/kmuhelper" target="_blank">Quellcode</a>
                 </div>
             </div>
         </nav>
