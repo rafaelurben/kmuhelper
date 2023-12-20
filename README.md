@@ -11,4 +11,4 @@ All related pages:
 
 ***
 
-Built with [Bootstrap Stuido](https://bootstrapstudio.io/) and [GitHub Pages](https://pages.github.com).
+Built with [Bootstrap Studio](https://bootstrapstudio.io/). Hosted on [GitHub Pages](https://pages.github.com).

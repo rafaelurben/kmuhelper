@@ -1,6 +1,6 @@
 ---
 title: Startseite
-description: Eine Buchhaltungssoftware für alle, welche sich keine professionelle Buchhaltungssoftware leisten können oder von überall auf ihr Geschäft zugreifen wollen. Einfach und simpel.
+description: Eine Bestellungsverwaltungssoftware mit Schweizer QR-Rechnungen für alle, welche sich keine professionelle Software leisten können oder von überall auf ihr Geschäft zugreifen wollen. Einfach und simpel.
 permalink: /
 priority: 1.0
 ---
@@ -12,124 +12,139 @@ priority: 1.0
 </head>
 
 <body style="scroll-behavior: smooth;">
-    <div>
-        <div class="header-blue" style="padding-bottom: 40px;">
-            <nav class="navbar navbar-expand-md navigation-clean-search px-3">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">KMUHelper</a>
-                    <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="navbar-toggler-icon" style="background-image: url(&quot;data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e&quot;);"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item"></li>
-                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-light" data-bs-toggle="dropdown" aria-expanded="false" href="#">Navigation</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="informationen">Informationen</a>
-                                    <a class="dropdown-item" href="geschichte">Geschichte</a>
-                                    <div class="dropdown-divider"></div>
-                                    <h6 class="dropdown-header">Autor &amp; Spenden</h6>
-                                    <a class="dropdown-item" href="unterstützen">Unterstützen</a>
-                                    <a class="dropdown-item" href="kontakt">Kontakt</a>
-                                    <a class="dropdown-item" href="https://rafaelurben.ch">Autor*</a>
-                                </div>
-                            </li>
-                        </ul><a class="btn btn-light ms-auto action-button" role="button" href="https://github.com/rafaelurben/kmuhelper" target="_blank">Quellcode</a>
-                    </div>
+<div>
+    <div class="header-blue" style="padding-bottom: 40px;">
+        <nav class="navbar navbar-expand-md navigation-clean-search px-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">KMUHelper</a>
+                <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"
+                          style="background-image: url(&quot;data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e&quot;);"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"></li>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-light"
+                                                         data-bs-toggle="dropdown" aria-expanded="false" href="#">Navigation</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="informationen">Informationen</a>
+                                <a class="dropdown-item" href="geschichte">Geschichte</a>
+                                <div class="dropdown-divider"></div>
+                                <h6 class="dropdown-header">Autor &amp; Spenden</h6>
+                                <a class="dropdown-item" href="unterstützen">Unterstützen</a>
+                                <a class="dropdown-item" href="kontakt">Kontakt</a>
+                                <a class="dropdown-item" href="https://rafaelurben.ch">Autor*</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="btn btn-light ms-auto action-button" role="button"
+                       href="https://github.com/rafaelurben/kmuhelper" target="_blank">Quellcode</a>
                 </div>
-            </nav>
-            <div class="container hero">
-                <div class="row">
-                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
-                        <h1>KMUHelper</h1>
-                        <p>Eine Buchhaltungssoftware für alle, welche sich keine professionelle Buchhaltungssoftware leisten können oder von überall auf ihr Geschäft zugreifen wollen. Einfach und simpel.</p>
-                        <a class="btn btn-light btn-lg action-button" role="button" href="https://rafaelurben.ch/django-kmuhelper">django-kmuhelper - Handbuch</a>
-                    </div>
-                    <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
-                        <div class="phone-mockup"><img class="device" src="assets/img/phone.svg">
-                            <div class="screen"></div>
-                        </div>
+            </div>
+        </nav>
+        <div class="container hero">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                    <h1>KMUHelper</h1>
+                    <p>Eine Bestellungsverwaltungssoftware mit Schweizer QR-Rechnungen für alle, welche sich keine
+                        professionelle Software leisten können oder von überall auf ihr Geschäft zugreifen wollen.
+                        Einfach und simpel.</p>
+                    <a class="btn btn-light btn-lg action-button" role="button"
+                       href="https://rafaelurben.ch/django-kmuhelper">django-kmuhelper - Handbuch</a>
+                </div>
+                <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
+                    <div class="phone-mockup"><img class="device" src="assets/img/phone.svg">
+                        <div class="screen"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="features" class="features-boxed">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Features </h2>
-                <p class="text-center">Der KMUHelper ist mit folgenden Features und noch vielem mehr ausgestattet.</p>
+</div>
+<div id="features" class="features-boxed">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Features </h2>
+            <p class="text-center">Der KMUHelper ist mit folgenden Features und noch vielem mehr ausgestattet.</p>
+        </div>
+        <div class="row justify-content-center features">
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box"><i class="fas fa-file-invoice icon"></i>
+                    <h3 class="name">Bestellungen</h3>
+                    <p class="description">Erstellen Sie Bestellungen, importieren Sie sie von anderen Quellen und
+                        drucken Sie sie aus.</p>
+                </div>
             </div>
-            <div class="row justify-content-center features">
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fas fa-file-invoice icon"></i>
-                        <h3 class="name">Bestellungen</h3>
-                        <p class="description">Erstellen Sie Bestellungen, importieren Sie sie von anderen Quellen und drucken Sie sie aus.</p>
-                    </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box"><i class="fas fa-qrcode icon"></i>
+                    <h3 class="name">QR-Rechnungen</h3>
+                    <p class="description">Mit dem KMUHelper können QR-Rechnungen als PDF-Datei auf Knopfdruck erstellt
+                        werden.</p>
                 </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fas fa-qrcode icon"></i>
-                        <h3 class="name">QR-Rechnungen</h3>
-                        <p class="description">Mit dem KMUHelper können QR-Rechnungen als PDF-Datei via Knopfdruck erstellt werden.</p>
-                    </div>
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box"><i class="fas fa-cloud icon"></i>
+                    <h3 class="name">Online</h3>
+                    <p class="description">Dadurch, dass der KMUHelper auf einem Server gehostet wird, ist er von
+                        überall erreichbar.</p>
                 </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fas fa-cloud icon"></i>
-                        <h3 class="name">Online</h3>
-                        <p class="description">Dadurch, dass der KMUHelper auf einem Server gehostet wird, ist er von überall erreichbar.</p>
-                    </div>
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box"><i class="fas fa-envelope icon"></i>
+                    <h3 class="name">E-Mails</h3>
+                    <p class="description">Senden Sie E-Mails mit Anhängen und erstellen Sie Vorlagen.</p>
                 </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fas fa-envelope icon"></i>
-                        <h3 class="name">E-Mails</h3>
-                        <p class="description">Senden Sie E-Mails mit Anhängen und erstellen Sie Vorlagen.</p>
-                    </div>
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box"><i class="fas fa-file-import icon"></i>
+                    <h3 class="name">XML Import</h3>
+                    <p class="description">Importieren Sie camt-Dateien für einfache Zahlungsverarbeitung.</p>
                 </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fas fa-file-import icon"></i>
-                        <h3 class="name">XML Import</h3>
-                        <p class="description">Importieren Sie camt-Dateien für einfache Zahlungsverarbeitung.</p>
-                    </div>
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box"><i class="fas fa-users icon"></i>
+                    <h3 class="name">Kundenverwaltung</h3>
+                    <p class="description">Erfassen Sie Ihre Kunden und senden Sie ihnen E-Mails mit ihrer
+                        personalisierten Rechnung.</p>
                 </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fas fa-users icon"></i>
-                        <h3 class="name">Kundenverwaltung</h3>
-                        <p class="description">Erfassen Sie Ihre Kunden und senden Sie ihnen E-Mails mit ihrer personalisierten Rechnung.</p>
-                    </div>
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box"><i class="fas fa-box-open icon"></i>
+                    <h3 class="name">Lagerverwaltung</h3>
+                    <p class="description">Verwalten Sie Ihren Lagerbestand und sehen Sie sofort, wenn der Lagerbestand
+                        eines Produktes knapp wird.</p>
                 </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fas fa-box-open icon"></i>
-                        <h3 class="name">Lagerverwaltung</h3>
-                        <p class="description">Verwalten Sie Ihren Lagerbestand und sehen Sie sofort, wenn der Lagerbestand eines Produktes knapp wird.</p>
-                    </div>
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box"><i class="far fa-chart-bar icon"></i>
+                    <h3 class="name">Statistiken (Beta)</h3>
+                    <p class="description">Sehen Sie sich an, was Ihre Kunden in einem Zeitraum am meisten bestellt
+                        haben.</p>
                 </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="far fa-chart-bar icon"></i>
-                        <h3 class="name">Statistiken (Beta)</h3>
-                        <p class="description">Sehen Sie sich an, was Ihre Kunden in einem Zeitraum am meisten bestellt haben.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fas fa-question icon"></i>
-                        <h3 class="name">Fragen?</h3>
-                        <p class="description">Haben Sie noch Fragen?</p><a class="learn-more" href="kontakt">Kontaktieren Sie mich »</a>
-                    </div>
+            </div>
+            <div class="col-sm-6 col-md-5 col-lg-4 item">
+                <div class="box"><i class="fas fa-question icon"></i>
+                    <h3 class="name">Fragen?</h3>
+                    <p class="description">Haben Sie noch Fragen?</p><a class="learn-more" href="kontakt">Kontaktieren
+                        Sie mich »</a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="highlight-blue">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Zu wenig Infos?</h2>
-                <p class="text-center">Das ist natürlich noch nicht alles! Weitere Informationen über den KMUHelper finden Sie auf folgender Seite.</p>
-            </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="informationen">Weiterlesen</a></div>
+</div>
+<div class="highlight-blue">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Zu wenig Infos?</h2>
+            <p class="text-center">Das ist natürlich noch nicht alles! Weitere Informationen über den KMUHelper finden
+                Sie auf folgender Seite.</p>
         </div>
+        <div class="buttons"><a class="btn btn-primary" role="button" href="informationen">Weiterlesen</a></div>
     </div>
-    
-    {% include footer.html %}
+</div>
+
+{% include footer.html %}
 </body>
 
 </html>
